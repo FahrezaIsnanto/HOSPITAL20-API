@@ -49,6 +49,15 @@
       "id_hari": 5,
       "hari": "Senin - Kamis",
       "waktu": "09:00-14:00 WIB"
+    },
+    {
+      "id": 3,
+      "id_poli": 2,
+      "nama_poli": "POLI MATA",
+      "nama": "DR Mata S.PD",
+      "id_hari": 1,
+      "hari": "Senin - Kamis",
+      "waktu": "09:00-14:00 WIB"
     }
   ],
   "pendaftaran": [
