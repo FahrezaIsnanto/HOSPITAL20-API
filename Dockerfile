@@ -1,7 +1,6 @@
-FROM node:16.15.0-alpine3.15
+FROM node:16-alpine
 WORKDIR /app
-ENV PORT 5000
-COPY . .
+COPY package.json .
 RUN npm install
-EXPOSE 5000
+COPY . .
 CMD [ "npm", "run", "start"]
